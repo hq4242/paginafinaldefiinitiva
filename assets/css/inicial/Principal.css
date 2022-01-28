@@ -1,0 +1,1032 @@
+@import url("/Portals/_default/Skins/PeruInfo/Fonts/BreePeru/css/BreePeru.css");
+
+.PeruInfoPrincipal {
+    box-sizing: border-box;
+    margin: 0;
+    max-width: 100%;
+    padding: 0;
+    position: relative;
+}
+
+    .PeruInfoPrincipal * {
+        box-sizing: border-box;
+        font-family: FC_Book;
+        font-size: 16px;
+        line-height: 1;
+        margin: 0;
+        max-width: 100%;
+        outline: none;
+        padding: 0;
+        position: relative;
+        text-decoration: none !important;
+    }
+
+.owl-carousel .owl-stage {
+    max-width: initial;
+}
+
+.owl-carousel .owl-stage-outer,
+.owl-carousel .owl-stage,
+.owl-carousel.owl-drag .owl-item,
+.HeaderAlertas .AlertaLista .AlertaItem a {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.csds{
+color: #000;
+position: relative;
+}
+
+form {
+    margin: 0;
+}
+
+.HeaderMenu {
+    position: absolute;
+    top: 3em;
+    width: 100%;
+    z-index: 996;
+}
+
+    .HeaderMenu .Logo {
+        left: 8em;
+        position: absolute;
+        top: 0;
+    }
+
+        .HeaderMenu .Logo a {
+            display: block;
+        }
+
+            .HeaderMenu .Logo a img {
+                display: block;
+                width: 8.5em;
+            }
+
+    .HeaderMenu .Menu {
+        position: fixed;
+        right: 8em;
+        top: 3.5em;
+        transition: top 0.5s ease-in-out;
+        z-index: 998;
+    }
+
+        .HeaderMenu .Menu ul {
+            align-items: center;
+            display: flex;
+        }
+
+        .HeaderMenu .Menu li {
+            list-style: none;
+            margin: 0 0 0 2em;
+        }
+
+            .HeaderMenu .Menu li a {
+                color: #fff;
+                font-family: FC_Bold;
+                font-size: 1.5em;
+                margin-top: 0.2em;
+                text-decoration: none;
+            }
+
+        .HeaderMenu .Menu .Campana {
+            align-items: center;
+            background-color: #d52b1e;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            height: 2em;
+            justify-content: center;
+            width: 2em;
+            z-index: 994;
+        }
+
+            .HeaderMenu .Menu .Campana img {
+                display: block;
+                height: 60%;
+            }
+
+            .HeaderMenu .Menu .Campana label {
+                align-items: center;
+                background-color: #fff;
+                border-radius: 50%;
+                color: #d52b1e;
+                display: flex;
+                font-family: FC_Bold;
+                height: 2em;
+                justify-content: center;
+                position: absolute;
+                right: -0.75em;
+                top: -0.5em;
+                width: 2em;
+                font-size: 0.5em;
+            }
+
+        .HeaderMenu .Menu li > img,
+        .HeaderMenu .Menu li > .pt_svg {
+            cursor: pointer;
+            display: block;
+            height: 1.6em;
+            z-index: 2;
+        }
+
+        .HeaderMenu .Menu .hamburger {
+            height: 1.2em;
+            opacity: 1;
+            padding: 0;
+            z-index: 2;
+        }
+
+            .HeaderMenu .Menu .hamburger .hamburger-box {
+                height: 1.2em;
+                width: 1.35em;
+            }
+
+            .HeaderMenu .Menu .hamburger .hamburger-inner,
+            .HeaderMenu .Menu .hamburger .hamburger-inner:before,
+            .HeaderMenu .Menu .hamburger .hamburger-inner:after {
+                background-color: #fff;
+                height: 0.15em;
+                margin-top: 0;
+                width: 1.35em;
+            }
+
+                .HeaderMenu .Menu .hamburger .hamburger-inner:before {
+                    top: -0.5em;
+                }
+
+                .HeaderMenu .Menu .hamburger .hamburger-inner:after {
+                    bottom: -0.5em;
+                }
+
+        .HeaderMenu .Menu li:after {
+            content: ' ';
+            background-color: #666;
+            border-radius: 50%;
+            height: 0;
+            left: 50%;
+            pointer-events: none;
+            position: absolute;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            transition: all 0.25s linear;
+            width: 0;
+            z-index: 1;
+            -o-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
+        }
+
+        .HeaderMenu .Menu.MenuActivo li.Buscar,
+        .HeaderMenu .Menu.MenuActivo li.Alerta,
+        .HeaderMenu .Menu.MenuActivo li.Idioma,
+        .HeaderMenu .Menu.MenuActivo li a {
+            opacity: 0;
+        }
+
+        .HeaderMenu .Menu.MenuActivo li:after {
+            opacity: 0;
+        }
+
+        .HeaderMenu .Menu.MenuScroll li a {
+            color: #666;
+        }
+
+        .HeaderMenu .Menu.MenuScroll li > .pt_svg .st0 {
+            fill: #666 !important;
+        }
+
+        .HeaderMenu .Menu.MenuScroll .hamburger .hamburger-inner,
+        .HeaderMenu .Menu.MenuScroll .hamburger .hamburger-inner:before,
+        .HeaderMenu .Menu.MenuScroll .hamburger .hamburger-inner:after {
+            background-color: #666;
+        }
+
+        .HeaderMenu .Menu.MenuScroll .hamburger.is-active .hamburger-inner,
+        .HeaderMenu .Menu.MenuScroll .hamburger.is-active .hamburger-inner:before,
+        .HeaderMenu .Menu.MenuScroll .hamburger.is-active .hamburger-inner:after {
+            background-color: #fff !important;
+        }
+
+
+        .HeaderMenu .Menu li.Idioma .IdiomaSelector {
+            background-color: #fff;
+            display: none;
+            left: 50%;
+            max-width: none;
+            padding: 0.5em;
+            position: absolute;
+            top: 150%;
+            transform: translateX(-50%);
+            width: 3em;
+        }
+
+            .HeaderMenu .Menu li.Idioma .IdiomaSelector:before {
+                border: .65em solid transparent;
+                border-bottom-color: #fff;
+                bottom: 98%;
+                content: ' ';
+                height: 0;
+                left: 50%;
+                position: absolute;
+                transform: translateX(-50%);
+                width: 0;
+                -o-transform: translateX(-50%);
+                -ms-transform: translateX(-50%);
+                -moz-transform: translateX(-50%);
+                -webkit-transform: translateX(-50%);
+            }
+
+            .HeaderMenu .Menu li.Idioma .IdiomaSelector a {
+                color: #666;
+                display: block;
+                font-family: FC_Bold;
+                font-size: 1.1em;
+                line-height: 1;
+                text-align: center;
+            }
+
+            .HeaderMenu .Menu li.Idioma .IdiomaSelector hr {
+                background-color: #666;
+                border: none;
+                color: #666;
+                height: 1px;
+                margin: 0.3em 0 0.5em;
+            }
+
+    .HeaderMenu .MenuDesplegado {
+        background-color: rgba(213, 43, 30, 0.9);
+        height: 100%;
+        max-width: 100%;
+        right: -45em;
+        position: fixed;
+        top: 0;
+        width: 45em;
+        z-index: 997;
+    }
+
+        .HeaderMenu .MenuDesplegado .MenuContenedor {
+            margin-right: 8.5em;
+            padding-left: 6.5em;
+            top: 11.5em;
+        }
+
+            .HeaderMenu .MenuDesplegado .MenuContenedor:before {
+                background-color: #fff;
+                content: ' ';
+                height: calc(100% - 2.75em);
+                position: absolute;
+                right: 0;
+                top: 50%;
+                transform: translate(50%, -50%);
+                width: 0.0625em;
+                -o-transform: translate(50%, -50%);
+                -ms-transform: translate(50%, -50%);
+                -moz-transform: translate(50%, -50%);
+                -webkit-transform: translate(50%, -50%);
+            }
+
+        .HeaderMenu .MenuDesplegado .MenuItem {
+            padding: 0 3.2em 1em 0;
+        }
+
+            .HeaderMenu .MenuDesplegado .MenuItem a {
+                color: #fff;
+                display: block;
+                font-family: FC_Book;
+                font-size: 1.6em;
+                letter-spacing: 0.07em;
+                line-height: 1.4;
+                text-align: right;
+                text-decoration: none;
+                user-select: none;
+            }
+
+            .HeaderMenu .MenuDesplegado .MenuItem .MenuItemPrincipal {
+                font-family: FC_Bold;
+                font-size: 2em;
+                opacity: 0;
+                transition: all 0.5s ease-in-out;
+                transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 50, 0, 1);
+            }
+
+            .HeaderMenu .MenuDesplegado .MenuItem .MenuItemSubmenu {
+                display: none;
+            }
+
+            .HeaderMenu .MenuDesplegado .MenuItem:last-child {
+                padding-bottom: 0;
+            }
+
+            .HeaderMenu .MenuDesplegado .MenuItem:before {
+                background-color: #fff;
+                border-radius: 50%;
+                content: ' ';
+                height: 0.9em;
+                position: absolute;
+                right: -0.45em;
+                top: 0.75em;
+                width: 0.9em;
+            }
+
+            .HeaderMenu .MenuDesplegado .MenuItem .MenuItemPrincipal.activo {
+                opacity: 1;
+                transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+            }
+
+.MenuInterna .HeaderMenu:before {
+    background-color: #fff;
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+    content: ' ';
+    height: 5.5em;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    transition: opacity 0.5s ease-in-out;
+    width: 100%;
+    -moz-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+}
+
+.MenuInterna.HeaderScroll .HeaderMenu:before {
+    opacity: 1;
+}
+
+.MenuInterna.HeaderScroll .HeaderMenu .Menu.MenuScroll {
+    top: 1.9em;
+}
+
+.HeaderBuscador {
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.95);
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+    .HeaderBuscador .BuscadorContenedor {
+        max-width: 81.25em;
+        width: 90%;
+    }
+
+        .HeaderBuscador .BuscadorContenedor .BuscadorInput {
+            opacity: 0;
+            transition: all 0.5s ease-in-out;
+            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 50, 0, 1);
+            width: 100%;
+        }
+
+            .HeaderBuscador .BuscadorContenedor .BuscadorInput .BuscadorCaja {
+                width: 100%;
+            }
+
+                .HeaderBuscador .BuscadorContenedor .BuscadorInput .BuscadorCaja input {
+                    background-color: transparent;
+                    border: none;
+                    border-bottom: 0.0625em solid #fff;
+                    color: #fff;
+                    font-family: FC_Bold;
+                    font-size: 1.5em;
+                    padding: 0.7em 2.5em 0.7em 0;
+                    width: 100%;
+                }
+
+                .HeaderBuscador .BuscadorContenedor .BuscadorInput .BuscadorCaja i {
+                    color: #fff;
+                    cursor: pointer;
+                    font-size: 1.5em;
+                    position: absolute;
+                    right: 1em;
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+
+            .HeaderBuscador .BuscadorContenedor .BuscadorInput.activo {
+                opacity: 1;
+                transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+            }
+
+        .HeaderBuscador .BuscadorContenedor .BuscadorTags {
+            align-items: center;
+            display: flex;
+            margin: 2.5em 0 0;
+            opacity: 0;
+            transition: all 0.5s ease-in-out;
+            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 50, 0, 1);
+        }
+
+            .HeaderBuscador .BuscadorContenedor .BuscadorTags .TagTitulo {
+                margin-right: 2em;
+            }
+
+                .HeaderBuscador .BuscadorContenedor .BuscadorTags .TagTitulo p {
+                    color: #fff;
+                    font-family: FC_Book;
+                    font-size: 1.3em;
+                }
+
+            .HeaderBuscador .BuscadorContenedor .BuscadorTags .TagItem {
+                margin-right: 1em;
+            }
+
+                .HeaderBuscador .BuscadorContenedor .BuscadorTags .TagItem a {
+                    background-color: #fff;
+                    border-radius: 3em;
+                    color: #000;
+                    display: block;
+                    font-family: FC_Bold;
+                    font-size: 1em;
+                    min-width: 6.5em;
+                    padding: 0.4em 1em 0.3em;
+                }
+
+            .HeaderBuscador .BuscadorContenedor .BuscadorTags.activo {
+                opacity: 1;
+                transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+            }
+
+        .HeaderBuscador .BuscadorContenedor .BuscadorCategorias {
+            display: flex;
+            justify-content: space-between;
+            margin: 3em 0 0;
+            opacity: 0;
+            transition: all 0.5s ease-in-out;
+            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 50, 0, 1);
+        }
+
+            .HeaderBuscador .BuscadorContenedor .BuscadorCategorias div {
+                color: #fff;
+                font-family: FC_Bold;
+                font-size: 1.8em;
+                letter-spacing: 0.02em;
+                width: 48%;
+            }
+
+            .HeaderBuscador .BuscadorContenedor .BuscadorCategorias.activo {
+                opacity: 1;
+                transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+            }
+
+        .HeaderBuscador .BuscadorContenedor .BuscadorResultados {
+            display: flex;
+            justify-content: space-between;
+            margin: 1.5em 0 0;
+            opacity: 0;
+            transition: all 0.5s ease-in-out;
+            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 50, 0, 1);
+        }
+
+            .HeaderBuscador .BuscadorContenedor .BuscadorResultados .ResultadosBlog {
+                width: 48%;
+            }
+
+            .HeaderBuscador .BuscadorContenedor .BuscadorResultados .ResultadosNoticias {
+                width: 48%;
+            }
+
+                .HeaderBuscador .BuscadorContenedor .BuscadorResultados .ResultadosBlog p.NoResultados,
+                .HeaderBuscador .BuscadorContenedor .BuscadorResultados .ResultadosNoticias p.NoResultados {
+                    color: #fff;
+                    font-family: FC_Book;
+                    font-size: 1em;
+                    line-height: 1.2;
+                    width: 100%;
+                }
+
+            .HeaderBuscador .BuscadorContenedor .BuscadorResultados .ResultadoItem {
+                display: flex;
+                margin: 0 0 1em;
+                width: 100%;
+            }
+
+                .HeaderBuscador .BuscadorContenedor .BuscadorResultados .ResultadoItem > a {
+                    display: flex;
+                    width: 100%;
+                }
+
+                .HeaderBuscador .BuscadorContenedor .BuscadorResultados .ResultadoItem .ResultadoImagen {
+                    margin-right: 2%;
+                    width: 38%;
+                }
+
+                    .HeaderBuscador .BuscadorContenedor .BuscadorResultados .ResultadoItem .ResultadoImagen img {
+                        display: block;
+                        height: 6em;
+                        object-fit: cover;
+                        width: 100%;
+                    }
+
+                .HeaderBuscador .BuscadorContenedor .BuscadorResultados .ResultadoItem .ResultadoDescripcion {
+                    width: 60%;
+                }
+
+                    .HeaderBuscador .BuscadorContenedor .BuscadorResultados .ResultadoItem .ResultadoDescripcion .ResultadoTitulo {
+                        color: #fff;
+                        font-family: FC_Bold;
+                        font-size: 1.1em;
+                        line-height: 1.1;
+                        margin: 0 0 0.5em;
+                    }
+
+                    .HeaderBuscador .BuscadorContenedor .BuscadorResultados .ResultadoItem .ResultadoDescripcion .ResultadoSubtitulo {
+                        color: #fff;
+                        font-family: FC_Book;
+                        font-size: 0.85em;
+                        line-height: 1.2;
+                    }
+
+            .HeaderBuscador .BuscadorContenedor .BuscadorResultados.activo {
+                opacity: 1;
+                transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+            }
+
+        .HeaderBuscador .BuscadorContenedor .ResultadoSugerencias {
+            border-top: 0.0625em solid #fff;
+            margin: 3em 0 0;
+            padding: 1.5em 0 0;
+            opacity: 0;
+            transition: all 0.5s ease-in-out;
+            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 50, 0, 1);
+        }
+
+            .HeaderBuscador .BuscadorContenedor .ResultadoSugerencias .Titulo {
+                color: #fff;
+                font-family: FC_Bold;
+                font-size: 1.8em;
+                letter-spacing: 0.02em;
+            }
+
+            .HeaderBuscador .BuscadorContenedor .ResultadoSugerencias .SugerenciasLista {
+                align-items: center;
+                display: flex;
+                justify-content: space-between;
+                margin: 2em 0 0;
+                padding: 0 1em;
+            }
+
+                .HeaderBuscador .BuscadorContenedor .ResultadoSugerencias .SugerenciasLista .SugerenciaItem {
+                    margin: 0;
+                }
+
+                    .HeaderBuscador .BuscadorContenedor .ResultadoSugerencias .SugerenciasLista .SugerenciaItem a {
+                        color: #ccc;
+                        font-family: FC_Book;
+                        font-size: 1em;
+                    }
+
+                        .HeaderBuscador .BuscadorContenedor .ResultadoSugerencias .SugerenciasLista .SugerenciaItem a .SugerenciaValor {
+                            color: #ccc;
+                            font-family: FC_Book;
+                            font-size: 1em;
+                        }
+
+                        .HeaderBuscador .BuscadorContenedor .ResultadoSugerencias .SugerenciasLista .SugerenciaItem a .SugerenciaSeccion {
+                            font-family: FC_Bold;
+                            font-size: 1em;
+                        }
+
+                            .HeaderBuscador .BuscadorContenedor .ResultadoSugerencias .SugerenciasLista .SugerenciaItem a .SugerenciaSeccion.Rojo {
+                                color: #d52b1e;
+                            }
+
+                            .HeaderBuscador .BuscadorContenedor .ResultadoSugerencias .SugerenciasLista .SugerenciaItem a .SugerenciaSeccion.amarillo {
+                                color: #f59d15;
+                            }
+
+                            .HeaderBuscador .BuscadorContenedor .ResultadoSugerencias .SugerenciasLista .SugerenciaItem a .SugerenciaSeccion.verde {
+                                color: #388922;
+                            }
+
+                            .HeaderBuscador .BuscadorContenedor .ResultadoSugerencias .SugerenciasLista .SugerenciaItem a .SugerenciaSeccion.azul {
+                                color: #2964b4;
+                            }
+
+                            .HeaderBuscador .BuscadorContenedor .ResultadoSugerencias .SugerenciasLista .SugerenciaItem a .SugerenciaSeccion.lila {
+                                color: #7d0063;
+                            }
+
+            .HeaderBuscador .BuscadorContenedor .ResultadoSugerencias.activo {
+                opacity: 1;
+                transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+            }
+
+.HeaderAlertas {
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+    .HeaderAlertas .AlertasCerrar {
+        position: absolute;
+        right: 0;
+        top: calc(10vh - 1.5em);
+        z-index: 9;
+    }
+
+        .HeaderAlertas .AlertasCerrar i {
+            color: #fff;
+            cursor: pointer;
+            font-size: 1.5em;
+            transform: translateY(-50%);
+        }
+
+    .HeaderAlertas .AlertaLista {
+        height: 80vh;
+        max-width: 108em;
+        width: 90%;
+    }
+
+        .HeaderAlertas .AlertaLista .AlertaItem {
+            height: 100%;
+            width: 100%;
+        }
+
+            .HeaderAlertas .AlertaLista .AlertaItem a {
+                display: block;
+            }
+
+            .HeaderAlertas .AlertaLista .AlertaItem img {
+                display: block;
+                height: 100%;
+                object-fit: cover;
+                width: 100%;
+            }
+
+            .HeaderAlertas .AlertaLista .AlertaItem iframe {
+                display: block;
+                height: 100%;
+                width: 100%;
+            }
+
+        .HeaderAlertas .AlertaLista .owl-dots {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            margin: 1.5em 0 0;
+        }
+
+            .HeaderAlertas .AlertaLista .owl-dots .owl-dot {
+                display: block;
+                margin: 0 0.5em;
+            }
+
+                .HeaderAlertas .AlertaLista .owl-dots .owl-dot span {
+                    border-radius: 50%;
+                    background-color: #fff;
+                    display: block;
+                    height: 0.5em;
+                    width: 0.5em;
+                }
+
+                .HeaderAlertas .AlertaLista .owl-dots .owl-dot.active span {
+                    height: 0.8em;
+                    width: 0.8em;
+                }
+
+.Contenedor {
+    width: 100%;
+}
+
+.BannerMenu {
+    margin: 0 0 50px;
+    width: 100%;
+}
+
+    .BannerMenu img {
+        display: block;
+        height: auto;
+        min-height: 30vh;
+        object-fit: cover;
+        object-position: top center;
+        width: 100%;
+    }
+
+@media (max-width:1799.9px) and (min-width:1700px) {
+    .PeruInfoPrincipal * {
+        font-size: 15px
+    }
+}
+
+@media (max-width:1699.9px) and (min-width:1600px) {
+    .PeruInfoPrincipal * {
+        font-size: 14px
+    }
+}
+
+@media (max-width:1599.9px) and (min-width:1500px) {
+    .PeruInfoPrincipal * {
+        font-size: 13px
+    }
+}
+
+@media (max-width:1499.9px) and (min-width:1024px) {
+    .PeruInfoPrincipal * {
+        font-size: 12px
+    }
+}
+
+@media (max-width:1199.9px) and (min-width:1100px) {
+    .HeaderMenu .Logo {
+        left: 4.5em;
+    }
+
+    .HeaderMenu .Menu {
+        right: 4.5em;
+    }
+}
+
+@media (max-width:1099.9px) and (min-width:1024px) {
+    .HeaderMenu .Logo {
+        left: 4.5em;
+    }
+
+    .HeaderMenu .Menu {
+        right: 4.5em;
+    }
+}
+
+@media (min-width:1000px) and (max-width:1023.9px) {
+    .PeruInfoPrincipal * {
+        font-size: 10px
+    }
+}
+
+@media (min-width:900px) and (max-width:999.9px) {
+    .PeruInfoPrincipal * {
+        font-size: 9.75px
+    }
+}
+
+@media (min-width:800px) and (max-width:899.9px) {
+    .PeruInfoPrincipal * {
+        font-size: 9.5px
+    }
+}
+
+@media (min-width:620px) and (max-width:799.9px) {
+    .PeruInfoPrincipal * {
+        font-size: 8.75px
+    }
+}
+
+@media (min-width:570px) and (max-width:619.9px) {
+    .PeruInfoPrincipal * {
+        font-size: 8px
+    }
+}
+
+@media (min-width:480px) and (max-width:569.9px) {
+    .PeruInfoPrincipal * {
+        font-size: 7.5px
+    }
+}
+
+@media (min-width:420px) and (max-width:479.9px) {
+    .PeruInfoPrincipal * {
+        font-size: 7px
+    }
+}
+
+@media (min-width:350px) and (max-width:419.9px) {
+    .PeruInfoPrincipal * {
+        font-size: 6.5px
+    }
+}
+
+@media (min-width:280px) and (max-width:349.9px) {
+    .PeruInfoPrincipal * {
+        font-size: 6px
+    }
+}
+
+@media (max-width:1023.9px) {
+    .HeaderMenu {
+        top: 5em;
+    }
+
+        .HeaderMenu .Logo {
+            left: 5em;
+        }
+
+            .HeaderMenu .Logo a img {
+                width: 10em;
+            }
+
+        .HeaderMenu .Menu {
+            right: 5em;
+            top: 5em;
+        }
+
+            .HeaderMenu .Menu .Campana {
+                height: 5.5em;
+                width: 5.5em;
+            }
+
+                .HeaderMenu .Menu .Campana label {
+                    font-size: 1.2em;
+                }
+
+            .HeaderMenu .Menu li {
+                margin: 0 0 0 2.8em;
+            }
+
+            .HeaderMenu .Menu .Idioma {
+                order: 1;
+            }
+
+                .HeaderMenu .Menu .Idioma .pt_svg {
+                    height: 3.5em;
+                }
+
+            .HeaderMenu .Menu li.Buscar {
+                display: none;
+                order: 2;
+            }
+
+                .HeaderMenu .Menu li.Buscar .pt_svg {
+                    height: 3.5em;
+                }
+
+            .HeaderMenu .Menu .hamburger {
+                height: 2.4em;
+            }
+
+            .HeaderMenu .Menu .Alerta {
+                order: 3;
+            }
+
+                .HeaderMenu .Menu .Alerta img {
+                    height: 3em;
+                }
+
+            .HeaderMenu .Menu .RespMenu {
+                margin: 0 0 0 4em;
+                order: 4;
+            }
+
+            .HeaderMenu .Menu .hamburger .hamburger-box {
+                height: 3.6em;
+                width: 4.05em;
+            }
+
+            .HeaderMenu .Menu .hamburger .hamburger-inner,
+            .HeaderMenu .Menu .hamburger .hamburger-inner:before,
+            .HeaderMenu .Menu .hamburger .hamburger-inner:after {
+                height: 0.45em;
+                width: 4.05em;
+            }
+
+                .HeaderMenu .Menu .hamburger .hamburger-inner:before {
+                    top: -1.5em;
+                }
+
+                .HeaderMenu .Menu .hamburger .hamburger-inner:after {
+                    bottom: -1.5em;
+                }
+
+            .HeaderMenu .Menu li:after {
+                display: none;
+            }
+
+            .HeaderMenu .Menu li:hover:after {
+                height: 2.5em;
+                width: 2.5em;
+            }
+
+            .HeaderMenu .Menu.MenuScroll li.RespMenu:after {
+                display: none;
+            }
+
+            .HeaderMenu .Menu.MenuScroll li.Alerta:after {
+                display: none;
+            }
+
+            .HeaderMenu .Menu.MenuScroll li.Idioma:after {
+                display: none;
+            }
+
+            .HeaderMenu .Menu.MenuScroll li.Idioma2:after {
+                display: none;
+            }
+
+            .HeaderMenu .Menu li a {
+                display: none;
+            }
+
+            .HeaderMenu .Menu li.Idioma .IdiomaSelector {
+                padding: 1em;
+                top: 130%;
+                width: 6em;
+            }
+
+                .HeaderMenu .Menu li.Idioma .IdiomaSelector:before {
+                    border: 1em solid transparent;
+                    border-bottom-color: #fff;
+                }
+
+                .HeaderMenu .Menu li.Idioma .IdiomaSelector a {
+                    font-size: 2em;
+                }
+
+                .HeaderMenu .Menu li.Idioma .IdiomaSelector hr {
+                    margin: 0.7em 0 1em;
+                }
+
+        .HeaderMenu .MenuDesplegado {
+            right: -95%;
+            width: 95%;
+        }
+
+            .HeaderMenu .MenuDesplegado .MenuContenedor {
+                margin-right: 6.8em;
+                padding-left: 2em;
+                top: 15em;
+            }
+
+                .HeaderMenu .MenuDesplegado .MenuContenedor:before {
+                    height: calc(100% - 3.5em);
+                    width: 0.3em;
+                }
+
+            .HeaderMenu .MenuDesplegado .MenuItem a {
+                font-size: 2.6em;
+            }
+
+            .HeaderMenu .MenuDesplegado .MenuItem .MenuItemPrincipal {
+                font-size: 3.5em;
+            }
+
+            .HeaderMenu .MenuDesplegado .MenuItem:before {
+                height: 2em;
+                right: -1em;
+                top: 1.3em;
+                width: 2em;
+            }
+
+    .MenuInterna .HeaderMenu:before {
+        height: 9.5em;
+    }
+
+    .HeaderBuscador {
+        display: none !important;
+    }
+
+    .HeaderAlertas .AlertasCerrar {
+        top: calc(37vh - 3em);
+    }
+
+        .HeaderAlertas .AlertasCerrar i {
+            font-size: 3em;
+        }
+
+    .HeaderAlertas .AlertaLista {
+        height: 26vh;
+        max-width: none;
+        width: 90%;
+    }
+
+        .HeaderAlertas .AlertaLista .owl-dots {
+            margin: 3em 0 0;
+        }
+
+            .HeaderAlertas .AlertaLista .owl-dots .owl-dot {
+                margin: 0 1em;
+            }
+
+                .HeaderAlertas .AlertaLista .owl-dots .owl-dot span {
+                    height: 1em;
+                    width: 1em;
+                }
+
+                .HeaderAlertas .AlertaLista .owl-dots .owl-dot.active span {
+                    height: 1.5em;
+                    width: 1.5em;
+                }
+
+    .BannerMenu {
+        margin: 0 0 20px;
+    }
+}
