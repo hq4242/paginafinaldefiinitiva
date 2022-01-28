@@ -5,8 +5,6 @@
 
     <main id="Contenedor">
 
-
-
 <section class="Banner">
 
 
@@ -18,13 +16,13 @@
                 <img src="assets/img/carrusel2/sl1.jpg" alt="Safe Travels Perú"></a>
                 <a  href="/es-pe/superfoods" data-pos="2">
                 
-                <img src="assets/img/carrusel2/sl2.jpg" alt="Superfoods"></a>
+                <img src="assets/img/carrusel2/10.jpg" alt="Superfoods"></a>
                 <a  href="http://alpacadelperu.com.pe/ES/" data-pos="3">
                     
                 <img src="assets/img/carrusel2/sl3.jpg" alt="Alpaca del Perú"></a>
                 <a  href="/es-pe/cafesdelperu" data-pos="4">
                     
-                <img src="assets/img/carrusel2/sl4.jpg" alt="Cafes del Perú"></a>
+                <img src="assets/img/carrusel2/taquile.jpg" alt="Cafes del Perú"></a>
                 <a  href="/es-pe/piscospiritofperu" data-pos="5">
                     
                 <img src="assets/img/carrusel2/Puno.jpg" alt="Pisco Spirit of Peru"></a>
@@ -96,20 +94,20 @@
 
     <div class="BannerRedes">
         <a href="https://www.facebook.com/marcaPERU" target="_blank" rel="nofollow">
-    <img src="assets/img/carrusel2/fb.png">
-</a>
-<a href="https://www.twitter.com/marcaPERU" target="_blank" rel="nofollow">
-    <img src="assets/img/carrusel2/tw.png">
-</a>
-<a href="https://www.youtube.com/marcaperu" target="_blank" rel="nofollow">
-    <img src="assets/img/carrusel2/yt.png">
-</a>
-<a href="https://www.instagram.com/peru" target="_blank" rel="nofollow">
-    <img src="assets/img/carrusel2/ig.png">
-</a>
-<a href="https://www.pinterest.com/peru" target="_blank" rel="nofollow">
-    <img src="assets/img/carrusel2/pint.png">
-</a>
+        <img src="assets/img/carrusel2/fb.png">
+        </a>
+        <a href="https://www.twitter.com/marcaPERU" target="_blank" rel="nofollow">
+            <img src="assets/img/carrusel2/tw.png">
+        </a>
+        <a href="https://www.youtube.com/marcaperu" target="_blank" rel="nofollow">
+            <img src="assets/img/carrusel2/yt.png">
+        </a>
+        <a href="https://www.instagram.com/peru" target="_blank" rel="nofollow">
+            <img src="assets/img/carrusel2/ig.png">
+        </a>
+        <a href="https://www.pinterest.com/peru" target="_blank" rel="nofollow">
+            <img src="assets/img/carrusel2/pint.png">
+        </a>
     </div>
 
 </section>

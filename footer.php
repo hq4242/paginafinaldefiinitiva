@@ -27,7 +27,9 @@
                         <li><strong>Puno, Perú</strong></li>
                         <li><a><strong>Telefono :</strong></a><a href="tel:051601050" class="smoothscroll"><i class='bx bx-phone'></i>&nbsp;051 (601050)</a></li>
                         <li><a><strong>Celular :</strong></a><a href="tel:+51935069397" class="smoothscroll"><i class='bx bx-phone'></i>&nbsp;+51 935069397</a></li>
-                        <li><a><strong>Email :</strong></a><a href="mailto:#" class="smoothscroll"><i class='bx bx-envelope'></i>&nbsp;turismomunipuno@gmail.com</a></li>  
+                        <li><a><strong>Email :</strong></a><a href="mailto:#" class="smoothscroll"><i class='bx bx-envelope'></i>&nbsp;turismomunipuno@gmail.com</a></li>
+                        <li><a><strong>Turismo :</strong></a><a href="https://www.turismopuno.com" class="smoothscroll">&nbsp;turismopuno.com</a></li>
+                        <li><a><strong>Moda Puno :</strong></a><a href="https://www.modapuno.com" class="smoothscroll"> &nbsp;modapuno.com</a></li>  
                     </ul>
             <div class="social-links">
               <a href="https://www.facebook.com/SubgerenciadeTurismoYComercioExteriorPuno"target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
