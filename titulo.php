@@ -1,9 +1,5 @@
 <form method="post" action="/es-pe/" id="Form" enctype="multipart/form-data">
 
-
-
-
-
 <section class="PeruInfoPrincipal">
 
 
@@ -41,7 +37,7 @@
                 <h2>MUSEO DREYER</h2>
                 <span>MUSEO DREYER</span>
             </div>
-                <p>Perú recibe sello mundial</p></a>
+                <p>Una antigua casona, que alberga la cultura Puneña</p></a>
             </div>
         
             <div class="DesItem " data-pos="2">
@@ -50,7 +46,7 @@
                 <h2>LOS UROS</h2>
                 <span>LOS UROS</span>
             </div>
-                <p>Perú, territorio de los superalimentos</p></a>
+                <p>Unicas, Islas Flotantes en el mundo</p></a>
             </div>
             
             <div class="DesItem " data-pos="3">
@@ -59,16 +55,16 @@
                 <h2>ISLA AMANTANI</h2>
                 <span>ISLA AMANTANI</span>
             </div>
-            <p>amantani destino seguro</p></a>
+            <p>Pachatata & Pachamama, centros ceremoniales mas altos del mundo</p></a>
             </div>
             
             <div class="DesItem " data-pos="4">
                 <a href="/es-pe/cafesdelperu">
             <div class="EfecTitulo">
-                <h2>ISLA FLOTANTE</h2>
-                <span>ISLA FLOTANTE</span>
+                <h2>ISLA TAQUILE</h2>
+                <span>ISLA TAQUILE</span>
             </div>
-            <p>visitanos en puno</p></a>
+            <p>Patrimonio Cultural Inmaterial de la Humanidad</p></a>
             </div>
             
             <div class="DesItem " data-pos="5">
